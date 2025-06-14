@@ -7,10 +7,10 @@ This repository includes two Python scripts that allow you to **download entire 
 
 ## 🗂 Contents
 
-- `flickr_album_downloader.py`  
+- `flickr_api_return_album_names.py`  
   Basic version that downloads all photos from each album listed in a `flickr_albums.txt` file.
 
-- `flickr_album_downloader_resume.py`  
+- `flickr_album_downloader.py` to download all at once or use `flickr_album_downloader_resume.py` if your connection might not be stable to continue downloading
   Enhanced version that supports **resuming** downloads if the process is interrupted (e.g., due to internet loss or system shutdown).
 
 ---
